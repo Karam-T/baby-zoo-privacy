@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Baby Zoo Animals: Kids Puzzle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@700;800&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --green:  #3db87a;
+      --yellow: #f9c74f;
+      --orange: #f4845f;
+      --blue:   #4cc9f0;
+      --soft-bg:#f0faf4;
+      --card:   #ffffff;
+      --text:   #2d3748;
+      --muted:  #718096;
+      --radius: 18px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--soft-bg);
+      color: var(--text);
+      line-height: 1.75;
+      padding: 0 0 80px;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #3db87a 0%, #27ae60 60%, #1a9651 100%);
+      text-align: center;
+      padding: 56px 24px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '🐘🦁🐼🦊🐸🦒';
+      font-size: 2rem;
+      letter-spacing: 8px;
+      display: block;
+      margin-bottom: 16px;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50%      { transform: translateY(-6px); }
+    }
+    header h1 {
+      font-family: 'Baloo 2', cursive;
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      color: #fff;
+      text-shadow: 0 3px 10px rgba(0,0,0,.15);
+      line-height: 1.2;
+    }
+    header p.sub {
+      color: rgba(255,255,255,.85);
+      font-size: .95rem;
+      margin-top: 10px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--yellow);
+      color: #7a5200;
+      font-weight: 800;
+      font-size: .78rem;
+      padding: 4px 14px;
+      border-radius: 99px;
+      margin-top: 16px;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+    }
+
+    /* ── CONTAINER ── */
+    main {
+      max-width: 800px;
+      margin: -28px auto 0;
+      padding: 0 20px;
+    }
+
+    /* ── CARDS ── */
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: 0 4px 24px rgba(0,0,0,.07);
+      padding: 32px 36px;
+      margin-bottom: 20px;
+      border-left: 5px solid var(--green);
+      transition: transform .2s;
+    }
+    .card:hover { transform: translateY(-2px); }
+    .card.yellow { border-color: var(--yellow); }
+    .card.orange { border-color: var(--orange); }
+    .card.blue   { border-color: var(--blue);   }
+    .card.green  { border-color: var(--green);  }
+
+    .card h2 {
+      font-family: 'Baloo 2', cursive;
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .card h2 .icon {
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+
+    .card p { margin-bottom: 10px; font-size: .97rem; }
+    .card p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      margin: 10px 0 0 0;
+    }
+    ul li {
+      padding: 5px 0 5px 24px;
+      position: relative;
+      font-size: .95rem;
+    }
+    ul li::before {
+      content: '✦';
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-size: .7rem;
+      top: 9px;
+    }
+
+    /* ── COPPA HIGHLIGHT ── */
+    .coppa-box {
+      background: linear-gradient(135deg, #fff8e1, #fffde7);
+      border: 2px solid var(--yellow);
+      border-radius: var(--radius);
+      padding: 24px 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .coppa-box .emoji { font-size: 2.2rem; display: block; margin-bottom: 8px; }
+    .coppa-box strong { color: #b45309; }
+
+    /* ── CONTACT CARD ── */
+    .contact-card {
+      background: linear-gradient(135deg, #3db87a, #27ae60);
+      border-radius: var(--radius);
+      padding: 30px 36px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-card h2 { font-family: 'Baloo 2', cursive; font-size: 1.3rem; margin-bottom: 10px; color: #fff; }
+    .contact-card a {
+      display: inline-block;
+      background: rgba(255,255,255,.2);
+      border: 2px solid rgba(255,255,255,.5);
+      color: #fff;
+      padding: 10px 26px;
+      border-radius: 99px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background .2s;
+    }
+    .contact-card a:hover { background: rgba(255,255,255,.35); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      font-size: .82rem;
+      color: var(--muted);
+      padding-top: 10px;
+    }
+
+    a { color: var(--green); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Baby Zoo Animals: Kids Puzzle<br/>Privacy Policy</h1>
+  <p class="sub">Developed by <strong>FUNGAMEPORTAL</strong></p>
+  <span class="badge">🛡️ Kid-Safe &amp; COPPA Compliant</span>
+</header>
+
+<main>
+
+  <!-- Effective date -->
+  <div style="text-align:center; margin: 24px 0 8px; font-size:.85rem; color:var(--muted);">
+    Effective Date: <strong>April 19, 2026</strong> &nbsp;·&nbsp; Last Updated: <strong>April 19, 2026</strong>
+  </div>
+
+  <!-- Intro -->
+  <div class="card green">
+    <h2><span class="icon">📋</span> Overview</h2>
+    <p>
+      This Privacy Policy explains how <strong>FUNGAMEPORTAL</strong> ("we," "us," or "our") handles information
+      in connection with the mobile game <strong>Baby Zoo Animals: Kids Puzzle</strong> (the "Game"),
+      available on the Google Play Store.
+    </p>
+    <p>
+      Our Game is designed for children aged <strong>1–12 years old</strong>. We take the privacy of young players
+      very seriously. We do <strong>not</strong> knowingly collect personal information directly from children.
+      Please read this policy carefully before allowing your child to use the Game.
+    </p>
+  </div>
+
+  <!-- COPPA callout -->
+  <div class="coppa-box">
+    <span class="emoji">👨‍👩‍👧‍👦</span>
+    <p><strong>For Parents &amp; Guardians:</strong> This app is directed at children under 13. We comply with
+    the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and Google Play's Families Policy.
+    If you believe your child has provided us with personal data, please contact us immediately.</p>
+  </div>
+
+  <!-- Data we collect -->
+  <div class="card yellow">
+    <h2><span class="icon">📊</span> Data Collected</h2>
+    <p>We do <strong>not</strong> directly collect personal information such as names, email addresses,
+    or phone numbers from players. However, third-party services used in the Game collect the following
+    data categories as disclosed in our Google Play data safety form:</p>
+
+    <p style="margin-top:14px;"><strong>📦 Financial Info</strong></p>
+    <ul>
+      <li><strong>Purchase history</strong> — records of in-app purchases, processed by Google Play</li>
+    </ul>
+
+    <p style="margin-top:14px;"><strong>📱 App Info &amp; Performance</strong></p>
+    <ul>
+      <li><strong>Crash logs</strong> — automatic error reports if the app crashes</li>
+      <li><strong>Diagnostics</strong> — technical performance data (memory usage, load times)</li>
+    </ul>
+
+    <p style="margin-top:14px;"><strong>🖱️ App Activity</strong></p>
+    <ul>
+      <li><strong>App interactions</strong> — how players interact with the Game (e.g., levels played, buttons tapped), used to improve game experience and serve ads</li>
+    </ul>
+
+    <p style="margin-top:14px;"><strong>📟 Device or Other IDs</strong></p>
+    <ul>
+      <li><strong>Device IDs</strong> — advertising ID and device identifiers, used by AdMob for ad delivery in a child-directed, non-personalized manner</li>
+    </ul>
+
+    <p style="margin-top:12px;">All of the above is collected by third-party SDKs (Google AdMob, Google Play Services)
+    and governed by their respective privacy policies.</p>
+  </div>
+
+  <!-- Data shared -->
+  <div class="card orange" style="border-color:#9b59b6;">
+    <h2><span class="icon">🔗</span> Data Shared with Third Parties</h2>
+    <p>As disclosed in our Google Play data safety form, the following data may be shared with third-party companies or organizations:</p>
+    <ul>
+      <li><strong>App interactions</strong> (App activity) — shared with Google AdMob for ad serving purposes</li>
+      <li><strong>Device or other IDs</strong> — shared with Google AdMob to facilitate child-directed, non-personalized advertising</li>
+    </ul>
+    <p style="margin-top:12px;">No personal data is sold or shared for marketing or profiling purposes.</p>
+  </div>
+
+  <!-- AdMob -->
+  <div class="card orange">
+    <h2><span class="icon">📢</span> Advertising (Google AdMob)</h2>
+    <p>
+      Our Game displays advertisements provided by <strong>Google AdMob</strong>.
+      Because our Game is directed at children, we have configured AdMob to serve
+      <strong>ads in a child-directed manner</strong> in compliance with COPPA and Google's
+      Families Ads Program requirements.
+    </p>
+    <ul>
+      <li>Interest-based / personalized advertising is <strong>disabled</strong> for this app</li>
+      <li>Ads shown are contextual and appropriate for a child audience</li>
+      <li>Google may still collect limited non-personal technical data for ad delivery</li>
+    </ul>
+    <p style="margin-top:12px;">
+      You can learn more about how Google handles data in child-directed apps at:<br/>
+      <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>
+    </p>
+  </div>
+
+  <!-- IAP -->
+  <div class="card blue">
+    <h2><span class="icon">🛒</span> In-App Purchases (IAP)</h2>
+    <p>
+      Our Game offers optional In-App Purchases (e.g., unlocking additional animal characters).
+      All purchases are processed entirely through the <strong>Google Play Store</strong>.
+    </p>
+    <ul>
+      <li>We do <strong>not</strong> collect, store, or process any payment or billing information</li>
+      <li>All payment data is handled securely by Google Play</li>
+      <li>Parental controls can be set up in the Google Play Store to require approval for purchases</li>
+      <li>Purchases are non-refundable except as required by applicable law or Google's refund policy</li>
+    </ul>
+    <p style="margin-top:12px;">
+      We strongly recommend parents enable <strong>parental purchase approval</strong> in their Google Play
+      Family settings to prevent unauthorized purchases by children.
+    </p>
+  </div>
+
+  <!-- How we use data -->
+  <div class="card green">
+    <h2><span class="icon">🔍</span> How We Use Information</h2>
+    <p>The limited technical data collected by third-party SDKs is used solely to:</p>
+    <ul>
+      <li>Display advertisements within the Game</li>
+      <li>Monitor app stability and fix technical issues</li>
+      <li>Improve overall Game performance and user experience</li>
+      <li>Comply with legal obligations</li>
+    </ul>
+    <p style="margin-top:12px;">We do not use any data for profiling children or for behavioral advertising.</p>
+  </div>
+
+  <!-- Data sharing -->
+  <div class="card yellow">
+    <h2><span class="icon">🤝</span> Data Sharing &amp; Third Parties</h2>
+    <p>We do not sell, rent, or trade any user information. Limited technical data may be shared with:</p>
+    <ul>
+      <li><strong>Google AdMob</strong> — for serving child-directed ads</li>
+      <li><strong>Google Play Services</strong> — for app distribution and in-app purchase processing</li>
+      <li><strong>Firebase / Google Analytics</strong> (if applicable) — for crash reporting and diagnostics</li>
+    </ul>
+    <p style="margin-top:12px;">
+      All third-party services are contractually required to handle data in compliance with applicable privacy laws
+      and Google Play's Families Policy.
+    </p>
+  </div>
+
+  <!-- Data retention -->
+  <div class="card orange">
+    <h2><span class="icon">🗓️</span> Data Retention</h2>
+    <p>
+      We do not store personal data on our own servers. Any technical data collected by third-party SDKs
+      is retained according to their respective data retention policies. Game progress and settings
+      are stored locally on the player's device only and are deleted when the app is uninstalled.
+    </p>
+  </div>
+
+  <!-- Security -->
+  <div class="card blue">
+    <h2><span class="icon">🔒</span> Security Practices</h2>
+    <ul>
+      <li><strong>Data is encrypted in transit</strong> — all data transferred between your device and our third-party service providers is transmitted over a secure, encrypted connection (TLS/HTTPS)</li>
+      <li><strong>Play Families Policy</strong> — we are committed to following Google Play's Families Policy, ensuring this app remains safe and appropriate for children</li>
+      <li>We do not store personal data on our own servers, minimizing security risk</li>
+    </ul>
+    <p style="margin-top:12px;">
+      No method of electronic storage or transmission is 100% secure. We encourage parents to
+      supervise their children's device usage and use device-level security features.
+    </p>
+  </div>
+
+  <!-- Parental rights -->
+  <div class="card green">
+    <h2><span class="icon">👨‍👩‍👦</span> Parental Rights &amp; Controls</h2>
+    <p>As a parent or guardian, you have the right to:</p>
+    <ul>
+      <li>Review any personal information we may hold about your child</li>
+      <li>Request deletion of any personal information related to your child</li>
+      <li>Refuse further collection or use of your child's information</li>
+      <li>Withdraw consent at any time by uninstalling the Game</li>
+    </ul>
+    <p style="margin-top:12px;">
+      To exercise any of these rights, please contact us using the email address below.
+      We will respond within 30 days.
+    </p>
+  </div>
+
+  <!-- Changes -->
+  <div class="card yellow">
+    <h2><span class="icon">📝</span> Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Any changes will be posted on this page
+      with an updated "Last Updated" date. We encourage parents to review this policy periodically.
+      Continued use of the Game after any changes constitutes acceptance of the updated policy.
+    </p>
+  </div>
+
+  <!-- Contact -->
+  <div class="contact-card">
+    <h2>📬 Contact Us</h2>
+    <p>
+      Have questions about this Privacy Policy or your child's privacy?<br/>
+      We're happy to help — reach out anytime.
+    </p>
+    <a href="mailto:karamtariq007@gmail.com">karamtariq007@gmail.com</a>
+    <p style="margin-top:14px; font-size:.85rem; opacity:.8;">
+      Developer: FUNGAMEPORTAL &nbsp;·&nbsp; Response time: within 30 days
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2026 FUNGAMEPORTAL. All rights reserved.</p>
+    <p style="margin-top:4px;">Baby Zoo Animals: Kids Puzzle · Google Play Store</p>
+  </footer>
+
+</main>
+</body>
+</html>
